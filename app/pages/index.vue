@@ -1,0 +1,8 @@
+<template>
+    <div class="min-h-dvh flex flex-col items-center justify-center gap-6 px-6 text-center">
+        <h1 class="font-bold text-5xl font-header">Mixsu Studio</h1>
+        <div class="flex flex-col items-center gap-3 font-serif">
+            <p>-- 让生活慢下来 --</p>
+        </div>
+    </div>
+</template>
