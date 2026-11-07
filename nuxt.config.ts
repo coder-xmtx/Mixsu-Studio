@@ -16,4 +16,8 @@ export default defineNuxtConfig({
       { name: "JetBrains Mono", weights: ["400"] },
     ],
   },
+  //
+  content: {
+    experimental: { sqliteConnector: "native" },
+  },
 });
