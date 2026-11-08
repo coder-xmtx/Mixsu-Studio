@@ -16,7 +16,7 @@ export default defineNuxtConfig({
       { name: "JetBrains Mono", weights: ["400"] },
     ],
   },
-  //
+  // content走原生sql，不额外引入better-sqlite
   content: {
     experimental: { sqliteConnector: "native" },
   },
