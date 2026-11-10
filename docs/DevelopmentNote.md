@@ -72,3 +72,17 @@ export default defineContentConfig({
 使用 Vue Bits 搞了个动态背景
 
 解决了博客渲染的逻辑，并且可以正常显示博客内容
+
+## ◈ 2026-11-10
+
+重点是修复了 `colorMode` 的问题
+
+`nuxt.config.ts`:
+
+```ts
+// 强制暗色模式
+colorMode: {
+  preference: "dark",
+  fallback: "dark",
+},
+```

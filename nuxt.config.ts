@@ -14,12 +14,14 @@ export default defineNuxtConfig({
       { name: "Noto Serif SC", weights: ["400", "700"] },
       { name: "Playfair Display", weights: ["400", "700"] },
       { name: "JetBrains Mono", weights: ["400"] },
+      { name: "Imperial Script", weights: ["400"] },
     ],
   },
   // content走原生sql，不额外引入better-sqlite
   content: {
     experimental: { sqliteConnector: "native" },
   },
+  // 强制暗色模式
   colorMode: {
     preference: "dark",
     fallback: "dark",
