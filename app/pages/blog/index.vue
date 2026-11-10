@@ -10,7 +10,7 @@ const { data: posts } = await useAsyncData('blog-list', () =>
         <h1 class="text-3xl font-serif mb-8">博客 Blog</h1>
         <ul class="space-y-6 gap-3 mb-10">
             <li v-for="post in posts" :key="post.path">
-                <NuxtLink :to="post.path" class="text-xl font-serif hover:text-gold-500">
+                <NuxtLink :to="post.path" class="text-xl font-serif hover:text-primary-300">
                     {{ post.title }}
                 </NuxtLink>
                 <div class="flex gap-2">
@@ -20,8 +20,7 @@ const { data: posts } = await useAsyncData('blog-list', () =>
             </li>
         </ul>
 
-        <UButton icon="i-lucide-arrow-left" size="md" variant="outline" to="/"
-            class="border border-gold-500 text-gold-500 hover:bg-gold-200/10">返回首页
+        <UButton icon="i-lucide-arrow-left" size="md" variant="outline" to="/" color="primary">返回首页
         </UButton>
     </div>
 </template>

@@ -7,7 +7,7 @@
             <div class="flex flex-col items-center gap-3 font-serif">
                 <p>-- 让生活慢下来 --</p>
             </div>
-            <ULink to="/blog">博客</ULink>
+            <ULink to="/blog" class="font-bold">博客</ULink>
             <p class="text-error">网站正在开发中</p>
         </div>
     </div>
