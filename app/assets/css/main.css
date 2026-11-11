@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
+/* Nuxt UI 配置 Nuxt Content */
+@source "../../../content/**/*";
+
 @theme static {
   /* 字体配置 */
   --font-header: "Playfair Display";

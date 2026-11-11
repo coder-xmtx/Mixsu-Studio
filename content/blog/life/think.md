@@ -3,9 +3,9 @@ title: 深言
 description: 记录一些令人深思的言语
 date: 2026-11-08
 category: life
+tags:
+  - 随想
 ---
-
-# 深言
 
 ## ◈ 2025-11-19
 

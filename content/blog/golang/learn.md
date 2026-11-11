@@ -2,16 +2,16 @@
 title: Golang学习
 description: 学习Go语言相关知识
 date: 2026-11-08
-category: life
+category: golang
+tags:
+  - Go
+  - 后端
 ---
-
-# Golang 学习
 
 学习 Go 语言，并掌握基础的后端编写技能，向全栈过渡。
 
 [Github](https://github.com/coder-xmtx/go-anything) 不定期更新。
 
-> [!NOTE]
 > 我依旧觉得，AI的上限取决于人的上限。
 >
 > 那么如何搭建基础而不是把大脑托管给AI，是一个值得深思的问题。

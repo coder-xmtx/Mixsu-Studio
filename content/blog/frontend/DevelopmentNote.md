@@ -3,9 +3,11 @@ title: 开发笔记
 description: 网站随想录
 date: 2026-11-08
 category: frontend
+tags:
+  - Nuxt
+  - 前端
+  - 建站
 ---
-
-# 开发笔记
 
 ## ◈ 2026-11-07
 
@@ -83,3 +85,17 @@ export default defineContentConfig({
 ## ◈ 2026-11-10
 
 修复了 `colorMode` 的问题
+
+`nuxt.config.ts`:
+
+```ts
+// 强制暗色模式
+colorMode: {
+  preference: "dark",
+  fallback: "dark",
+},
+```
+
+## ◈ 2026-11-11
+
+搭建索引页面
