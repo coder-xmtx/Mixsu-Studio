@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   telemetry: false,
   // 注册模块
-  modules: ["@nuxt/ui", "@nuxt/content"],
+  modules: ["@nuxt/ui", "@nuxt/content", "@nuxt/image"],
   // 样式文件入口
   css: ["~/assets/css/main.css"],
   // 字体
