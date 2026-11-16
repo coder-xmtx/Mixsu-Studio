@@ -1,4 +1,4 @@
-# <img src="public/logo.svg" width=50> Mixsu Studio
+# <img src="public/logo.svg" width=40> Mixsu Studio
 
 个人网站
 
